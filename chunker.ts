@@ -1,4 +1,4 @@
-import { setImmediate } from "https://cdn.deno.land/std/versions/0.92.0/raw/node/timers.ts";
+import { setImmediate } from "./deps.ts";
 
 export interface DataChunk {
   offset: number;
